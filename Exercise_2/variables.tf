@@ -1,1 +1,7 @@
-# TODO: Define the variable for aws_region
+variable "region" {
+  type = string
+}
+
+variable "profile" {
+  type = string
+}
